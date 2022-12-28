@@ -25,6 +25,9 @@ if(randomNumber1 > randomNumber2){
 else if(randomNumber1 < randomNumber2){
   document.querySelector("h1").innerHTML="Player2 wins";
 }
+else if(randomNumber1 === randomNumber2){
+  document.querySelector("h1").innerHTML = "Match draw";
+}
 else{
-  document.querySelector("h1").innerHTML="Match draw";
+  document.querySelector("h1").innerHTML="OOPS! we are unable to connect to server";
 }
